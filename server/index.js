@@ -1,7 +1,7 @@
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const { buildSchema } = require('graphql');
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const cors = require('cors')
 
 const app = express();
@@ -44,8 +44,8 @@ const root = {
 app.use((req, res, next) => {
   req.mysqlDb = mysql.createConnection({
     host     : 'localhost',
-    user     : 'root',
-    password : '',
+    user     : 'local',
+    password : 'infotecdoglio23',
     database : 'userapp'
   });
   req.mysqlDb.connect();

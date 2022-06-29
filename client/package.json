@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/client": "^3.6.9",
     "@apollo/react-hooks": "^3.0.0",
+    "@openreplay/tracker": "^3.5.12",
+    "@openreplay/tracker-graphql": "^3.0.0",
     "apollo-boost": "^0.4.3",
     "bootstrap": "^4.3.1",
     "formik": "^1.5.8",

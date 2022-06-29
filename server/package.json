@@ -16,6 +16,6 @@
     "express-graphql": "^0.9.0",
     "graphql": "^14.4.2",
     "mongodb": "^3.3.0-beta2",
-    "mysql": "^2.17.1"
+    "mysql2": "^2.3.3"
   }
 }
